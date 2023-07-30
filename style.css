@@ -95,27 +95,28 @@ body{
     padding: 1.3rem 0;
 }
 
-.download{
+.download {
     display: flex;
-    width: 70%;
-    justify-content: space-around;
-    align-items: center;
+    width: 90%;
     padding: 0.6rem;
+    justify-content: space-between;
 }
 
 .app-download{
-    height: 2.2rem;
-    width: 7.6rem;
-    background-size: cover;
+    height: 2.5rem;
+    width: 8rem;
+    background-repeat: round;
 }
 
+/*
 .app-download:nth-child(1){
-    background-image: url(./img/apple-downlaod.png);
+    background-image: url();
 }
 
 .app-download:nth-child(2){
-    background-image: url(./img/google-download.png);
+    background-image: url();
 }
+*/
 
 /* slider*/
 
@@ -124,7 +125,7 @@ body{
     align-items: center;
     justify-content: start;
     width: 28vh;
-    height: 60%;
+    height: 61%;
     position: relative;
     margin-bottom: 120px;
     margin-right: 50px;
@@ -132,14 +133,9 @@ body{
 
 #slider img{
     opacity: 0;
-
     position: absolute;
-
     width: 100%;
     height: 100%;
-
-    object-fit: cover;
-
     transition: opacity 800ms;
 
 }
